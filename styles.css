@@ -73,6 +73,21 @@ body {
   padding: 2% 15%;
 }
 
+/* RESOURCES SUBPAGE */
+
+.resources-subtitle {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.resources-entry {
+  padding-left: 3%;
+}
+
+.resources-entry h1, h2, h3 {
+  color: #1c1259;
+}
+
 /* FOOTER */
 
 .footer-padding {
