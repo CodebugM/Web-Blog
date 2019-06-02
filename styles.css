@@ -88,6 +88,10 @@ body {
   color: #1c1259;
 }
 
+.resources-entry a {
+  color: #ee4266;
+}
+
 /* FOOTER */
 
 .footer-padding {
