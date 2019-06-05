@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.top-row {
+  background-color: #02576c;
+  display: flex; /* IMPORTANT so columns are displayed next to each other*/
+  padding: 2% 5%;
+}
+
+.top-row img {
+  border: 3px solid #fff;
+  width: 80%;
+  transform: rotate(-8deg);
+  /* position: absolute;
+  top: 30px;
+  left: 5%; */
+
+  vertical-align: baseline;
+}
+
+.top-row-intro-text {
+  color: #fff;
+  /* padding: 5%; */
+  vertical-align: middle;
+}
+
+.top-row h1 {
+  padding-bottom: 2%;
+}
+
+/* Middle row */
+
+.main-heading {
+  background-color: #05a19c;
+}
+
+/* Bottom row: Skills columns */
+
+.skills {
+  background-color: #02576c;
+}
