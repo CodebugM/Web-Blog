@@ -21,6 +21,10 @@
   color: #fff;
 }
 
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
 .navbar-nav  li a:hover {
     color: #ee4266 !important;
 }
@@ -33,6 +37,10 @@
 .navbar-brand {
   color: #1c1259;
   font-size: 5rem;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
 }
 
 .navbar-subtitle {
@@ -58,7 +66,7 @@ body {
   /* vertical-align: middle; */
   height: 200px;
   width: 100%;
-  padding-top: 5%;
+  padding-top: 2%;
 }
 
 .logo-div h1 {
@@ -68,8 +76,12 @@ body {
   /* vertical-align: middle; */
 }
 
-.blog-entry {
-  text-align: center;
+.blog-entry h1 {
+  padding-left: 10%;
+}
+
+.blog-entry p {
+  text-align: left;
   padding: 2% 15%;
 }
 
