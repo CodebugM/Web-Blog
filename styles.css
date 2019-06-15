@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0 15%1a1r;
+  width: 100%;
+}
+
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -143,4 +149,117 @@ body {
 
 .heart {
   color: #1c1259;
+}
+
+/* ABOUT ME PAGE */
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.top-row {
+  background-color: #004445;
+  display: flex; /* IMPORTANT so columns are displayed next to each other*/
+  font-family: 'Raleway';
+  padding: 2% 5%;
+}
+
+.top-row img {
+  border: 3px solid #fff;
+  width: 60%;
+  transform: rotate(-8deg);
+  /* position: absolute;
+  top: 30px;
+  left: 5%; */
+
+  vertical-align: baseline;
+}
+
+.top-row-intro-text {
+  color: #fff;
+  /* padding: 5%; */
+  vertical-align: middle;
+}
+
+.top-row h1 {
+  padding-bottom: 2%;
+}
+
+/* Middle row */
+
+.main-heading {
+  background-color: #021C1E;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 4%;
+}
+
+.main-heading h1 {
+  /* code for the colour gradient */
+  background: -webkit-linear-gradient(#6FB98F, #E6FF44);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-family: 'Cookie';
+  font-size: 6.5rem;
+}
+
+/* Bottom row: Skills columns */
+
+.skills {
+  background-color: #6FB98F;
+  color: #021C1E;
+  font-family: 'Raleway';
+  padding: 2% 4%;
+}
+
+.skills li {
+  padding: 2% 0;
+}
+
+.skills a {
+  color: #375E97;
+}
+
+.skills a:hover {
+  color: #E6FF44;
+  text-decoration: none;
+}
+
+.skills-row {
+  text-align: center;
+  padding: 4%;
+}
+
+.skills img {
+  height: 50px;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: #004445;
+  font-family: 'Raleway';
+  padding: 2%;
+  text-align: center;
+}
+
+footer h2 {
+  color: #fff;
+  padding: 2%;
+  font-weight: bold;
+}
+
+.email-button {
+  background-color: #6FB98F;
+  border-color: #6FB98F;
+}
+
+.email-button:hover {
+  background-color: #E6FF44;
+  border-color: #E6FF44;
+  color: #004445;
 }
