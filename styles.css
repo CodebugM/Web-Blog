@@ -9,17 +9,32 @@ body {
     padding-bottom: 70px;
 }
 .navbar {
-    padding-top: 15px;
+    padding-top: 0px;
     padding-bottom: 15px;
     border: 0;
     border-radius: 0;
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    align-self: center;
 
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+nav img {
+  align-self: center;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
 
 .navbar-default {
@@ -29,32 +44,18 @@ body {
 
 .navbar-default .navbar-nav > li > a {
   color: #fff;
+  align-content: center;
 }
 
 .navbar-nav  li a:hover {
     color: #ee4266 !important;
 }
 
-.navbar-header {
-  float: left;
-  font-family: 'Yesteryear', cursive;
-}
-
-.navbar-brand {
-  color: #1c1259;
-  font-size: 5rem;
-}
-
 .navbar-default .navbar-brand {
   color: #fff;
 }
 
-.navbar-subtitle {
-  font-family: 'Montserrat', sans-sans-serif;
-  font-size: 2rem;
-  float: right;
-  line-height: 50px;
-}
+
 
 /* other colours in palette:
 yellow: fcd307
