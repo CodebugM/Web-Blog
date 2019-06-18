@@ -35,7 +35,7 @@ body {
 
 /* img */
 
-img {
+.logo-img {
   /* align-self: center; */
 
   position: fixed;
@@ -78,11 +78,36 @@ img {
   color: #fff;
 }
 
-.row {
+.header-row {
   text-align: center;
 }
 
+/* main section of index page */
 
+.main-content-row {
+    display: flex;
+}
+
+.main-content-column {
+  padding-right: 4%;
+}
+
+.about-me-text {
+  font-family: "Montserrat";
+  font-style: italic;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.blog-post-img {
+  width:  350px;
+  /* height: 100px; */
+  background-position: 50% 50%;
+}
+
+hr {
+border-top: 1px solid #ee4266;
+}
 
 
 
@@ -93,6 +118,12 @@ grey: d5daeb
 
 body {
   margin-top: 9%;
+}
+
+.main-body {
+  padding-top: 230px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .welcome-text {
